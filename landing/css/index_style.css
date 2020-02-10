@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.shapka_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.border {
+    display: flex;
+    justify-content: center;
+    border-bottom: #EDEDED 1px solid;
+
+}
+
+.shapka_item {
+    padding-top: 15px;
+    display: flex;
+    font-size: 110%;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    background-color: #FDFEFE;
+}
+
+.logo > a {
+    color: #10A2FF;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+.logo {
+    padding: 20px;
+    margin-right: 75px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 180%;
+}
+
+.shapka_2 {
+    margin-bottom: 10px;
+    border-bottom: #EDEDED 1px solid;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+}
+
+.news_item {
+    margin-right: 70px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    font-size: 80%;
+    margin-top: 25px;
+}
+
+.item_1 > h2, .item_2 > h2, .item_3 > h2, .item_4 > h2 {
+    color: #76A9FA;
+}
+
+.item_1 > p, .item_2 > p, .item_3 > p, .item_4 > p {
+    margin-top: 15px;
+}
+
+.item_1, .item_2, .item_3, .item_4 {
+    padding: 45px;
+    cursor: pointer;
+}
+
+.col-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.operator_container {
+    margin-left: 150px;
+}
+
+.operator {
+    padding: 15px;
+    border: darkgray 1px solid;
+    border-radius: 5px;
+}
+
+.col-1 {
+    margin-left: 17px;
+}
+
+.col-2 {
+    margin-left: 146px;
+}
+
+.col-1, .col-2 {
+    font-weight: bolder;
+    color: darkgray;
+}
+
+.operator_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item_1_1, .item_2_1, .item_3_1, .item_4_1, .item_5_1, .item_6_1, .item_7_1, .item_8_1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.year_str {
+    margin-left: 86px;
+}
+
+.q1234 {
+    font-size: 80%;
+    color: #76A9FA;
+}
+
+.mid {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cnt, .cost {
+    margin: 5px;
+    font-size: 90%;
+}
+
+.p-item-1 > img, .p-item-2 > img, .p-item-3 > img {
+    border-radius: 5px;
+
+}
+
+.p-item-1, .p-item-2, .p-item-3 {
+    padding-bottom: 15px;
+    border: darkgray solid 1px;
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
+
+.cost {
+    margin-left: 150px;
+    color: #76A9FA;
+}
+
+.popular {
+    margin-left: 130px;
+
+}
+
+.str-cost {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.popular-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.map {
+    margin-top: 20px;
+    margin-left: 145px;
+    display: flex;
+    justify-content: center;
+}
+
+.qq {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 150%;
+    margin-left: 160px;
+    color: darkgray;
+}
+
+.qw {
+    color: darkgray;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+
+.footer_container {
+    background-color: #FDFEFE;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.footer_item_2 {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_item_1 {
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_items {
+    margin-top: 60px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.shapka_item > a:hover {
+    color: #10A2FF;
+}
+
+.item_1:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+}
+
+.item_4:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+}
+
+.item_3:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+}
+
+.item_2:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.operator_item > div:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+
+}
+.popular-item>div:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+}
